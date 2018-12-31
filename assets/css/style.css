@@ -1,0 +1,80 @@
+body
+{
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: center;
+}
+
+header
+{
+    background: url('../img/doge.jpg') no-repeat;
+    border-radius: 60px;
+    margin: 50px auto;
+    height: 120px;
+    width: 120px;
+}
+
+article
+{
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    margin: 50px 25px;
+}
+
+article section
+{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+article section :first-child a
+{
+    color: inherit;
+    font-size: inherit;
+    opacity: inherit;
+    text-decoration: none;
+}
+
+article section h1
+{
+    text-align: center;
+}
+
+article section p
+{
+    line-height: 24px;
+}
+
+@media (max-width: 720px) {
+    article section img
+    {
+        width: 100%;
+    }
+}
+
+article section img
+{
+    margin: 24px auto !important;
+    display: block !important;
+}
+
+article section code
+{
+    background-color: #f2f2f2;
+    display: inline-block;
+    width: auto;
+    padding: 5px;
+    font-family: monospace;
+    white-space:pre;
+}
+
+article section p:last-child a
+{
+    color: black;
+    font-size: small;
+    opacity: 0.5;
+}
+
+article section p:last-child a:hover
+{
+    opacity: 1;
+}
