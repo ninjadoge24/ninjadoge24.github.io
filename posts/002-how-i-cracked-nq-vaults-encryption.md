@@ -16,7 +16,7 @@
 
 ###Day 1
 
-I made a 1x1px png [test.png] in GIMP and ran `echo NINJADOGE24 >> test.png` and encrypted it in NQ Vault v6.1.00.22 with a simple password `2424`.
+I made a 1x1px png [test.png] in GIMP and ran `echo NINJADOGE24 >> test.png` and encrypted it in NQ Vault v6.1.00.22 with a simple [password](https://www.192-168-1-1-ip.co/default-usernames-passwords/) `2424`.
 
 The original file, test.png:
 
@@ -212,4 +212,4 @@ Brute-forcing ain't that hard.
 
 Compile `vault-crack.c` and put it in a directory along with the script and an encrypted file from the vault. Then you can run `./vault-crack.sh ENCRYPTED_FILE` to get your decrypted file.
 
-There you go! That was fun.
+There you go! That was fun. ( [192.168.1.1](https://www.192-168-1-1-ip.co) )
